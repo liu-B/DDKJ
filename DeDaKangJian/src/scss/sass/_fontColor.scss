@@ -1,0 +1,41 @@
+/* 字体颜色 */
+$col-1:#fff;
+$col-2:#222;
+$col-3:#333;
+$col-4:#666;
+$col-5:#999;
+$col-6:#e53935;
+$col-7:#323232;
+$col-8:#404040;
+
+.col-fff {
+  color: $col-1;
+}
+
+.col-222 {
+  color: $col-2;
+}
+
+.col-333 {
+  color: $col-3;
+}
+
+.col-666 {
+  color: $col-4;
+}
+
+.col-999 {
+  color: $col-5;
+}
+
+.col-e53935 {
+  color: $col-6 !important;
+}
+
+.col-323232 {
+  color: $col-7;
+}
+
+.col-404040 {
+  color: $col-8
+}

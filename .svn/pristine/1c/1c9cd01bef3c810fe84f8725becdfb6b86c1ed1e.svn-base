@@ -1,0 +1,29 @@
+.top {
+  height: 32px;
+  background-color: #f5f5f5;
+  line-height: 32px;
+  color: #666;
+  li {
+    float: left;
+    margin-left: 20px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+  a {
+    color: #666;
+  }
+  .login-link {
+    margin: 0 10px;
+  }
+}
+
+.ico-arrow-d {
+  position: relative;
+  top: -1px;
+}
+
+.ico-phone-app {
+  position: relative;
+  top: 4px;
+}

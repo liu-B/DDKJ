@@ -1,0 +1,45 @@
+  // 轮播图
+
+  jQuery(".slideBox").slide({
+    effect: "left",
+    easing: "easeOutQuad",
+    mainCell: ".bd ul",
+    delayTime: 500,
+    autoPlay: true
+  });
+
+  // 二级菜单显示
+
+  /*var $menuList = $('.D-menu li');
+  var $menuSublistWrap = $('.menu-sublist-wrap');
+  var $menuSublist = $('.menu-sublist-area');
+
+  $menuList.hover(function() {
+
+    var $this = $(this);
+    var $t = $this.index();
+
+    $menuSublistWrap.show();
+
+
+    $this.addClass('on');
+
+    $menuSublist.eq($t).show();
+
+  },function(){
+  	
+  	$menuList.removeClass('on');
+
+    $menuSublistWrap.hide();
+
+    $menuSublist.hide();
+
+  });*/
+
+  /*$menuList.mouseleave(function() {
+    $menuList.removeClass('on');
+
+    $menuSublistWrap.hide();
+
+    $menuSublist.hide();
+  });*/

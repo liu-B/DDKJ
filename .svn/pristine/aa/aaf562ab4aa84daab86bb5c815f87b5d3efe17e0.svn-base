@@ -1,0 +1,35 @@
+<div class="header bgc-fff">
+  <div class="w">
+    <div class="logo"><img src="images/logo/logo.png" alt=""></div>
+    <div class="download-app">
+      <img src="images/icons/QR-code.png" alt="扫码下APP，领288元红包">
+      <p>扫码下APP 领<span class="col-e53935">288</span>元红包</p>
+    </div>
+    <div class="search-wrap">
+      <div class="form clearfix">
+        <input class="pl10 pr10 fl" type="text" placeholder="在此输入搜索产品关键词">
+        <button class="submit f18 col-fff">搜索</button>
+      </div>
+      <div class="hotwords">
+        <a href="#">氧气机</a>
+        <a href="#">雾化器</a>
+        <a href="#">按摩仪</a>
+        <a href="#">果蔬消毒机</a>
+        <a href="#">辅食料理机</a>
+        <a href="#">空气净化器</a>
+        <a href="#">氧气袋</a>
+        <a href="#">吸奶器</a>
+        <a href="#">腰部按摩</a>
+      </div>
+    </div>
+    <div class="navitems clearfix">
+    	<ul>
+    		<li><a href="#">新品预定</a></li>
+    		<li class="hot-free"><a href="#">免费领取</a><i class="ico-hot"></i></li>
+    		<li><a href="#">集团介绍</a></li>
+    		<li><a href="#">售后服务</a></li>
+    		<li><a href="#">全国联保</a></li>
+    	</ul>
+    </div>
+  </div>
+</div>

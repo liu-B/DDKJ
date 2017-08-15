@@ -1,0 +1,217 @@
+@charset "UTF-8";
+.logo { position: absolute; top: 35px; left: 22px; width: 158px; height: 65px; }
+
+.download-app { position: absolute; top: 35px; right: 6px; width: 144px; text-align: center; }
+
+.download-app img { display: inline-block; width: 78px; height: 78px; margin-bottom: 13px; }
+
+.search-wrap { width: 616px; margin: 0 0 23px 321px; padding-top: 46px; }
+
+.form { margin-bottom: 12px; border: 2px solid #01994b; }
+
+.form input { width: 470px; height: 34px; border: none; outline: none; }
+
+.form .submit { width: 122px; height: 34px; border: 0; background-color: #01994b; outline: none; cursor: pointer; }
+
+.hotwords { font-size: 0; }
+
+.hotwords a { font-size: 12px; margin-left: 16px; color: #999; }
+
+.hotwords a:first-child { margin-left: 0; }
+
+.navitems { margin-left: 264px; height: 40px; line-height: 40px; }
+
+.navitems li { float: left; font-size: 16px; margin-left: 46px; position: relative; }
+
+.navitems li:first-child { margin-left: 0; }
+
+.navitems li a { color: #333; }
+
+.navitems li a:hover, .navitems li a.on { color: #01994b; }
+
+.ico-hot { width: 16px; height: 16px; background: url(../images/icons/hot.png) no-repeat; position: absolute; top: 0; right: -15px; }
+
+/*导航菜单*/
+.D-b-1 { width: 200px; margin-top: -40px; position: relative; }
+
+.D-b-1 .dt { height: 40px; line-height: 40px; background-color: #01994b; position: relative; }
+
+.D-b-1 .dt a { color: #fff; }
+
+.D-b-1 .dt i { left: 31px; }
+
+.D-b-1 .dd { height: 52px; line-height: 52px; position: relative; background-position: 175px 20px; }
+
+.D-b-1 .dd:before { content: ''; display: none; position: absolute; width: 198px; height: 51px; border: 1px solid #01994b; left: 0; top: 0; }
+
+.D-b-1 .dd:after { content: ''; display: none; position: absolute; right: -1px; top: 1px; width: 2px; height: 51px; background-color: #fafdfb; z-index: 11; }
+
+.D-b-1 .dd:hover, .D-b-1 .dd.on { background-color: #fafdfb; }
+
+.D-b-1 .dd:hover a, .D-b-1 .dd.on a { color: #01994b; }
+
+.D-b-1 .dd:hover .icon-d-arrow-r, .D-b-1 .dd.on .icon-d-arrow-r { color: #01994b; }
+
+.D-b-1 .dd:hover:before, .D-b-1 .dd:hover:after, .D-b-1 .dd.on:before, .D-b-1 .dd.on:after { display: block; }
+
+.D-menu { height: 340px; font-size: 16px; }
+
+.D-menu i { font-size: 14px; margin-left: 13px; margin-right: 13px; }
+
+.D-menu a { display: block; color: #666; position: relative; }
+
+.D-menu a div { margin-left: 9px; margin-right: 8px; }
+
+.D-menu a .icon-d-arrow-r { font-size: 10px; color: #e8e8e8; }
+
+.D-menu a .icon-d-arrow-r:before { position: absolute; right: 12px; top: 50%; margin-top: -25px; }
+
+.menu-all i { position: absolute; top: 50%; margin-top: -8px; width: 16px; height: 16px; background: url(../images/icons/Icon-classification.png) no-repeat; }
+
+/* 二级菜单 */
+.menu-sublist-wrap { display: none; position: absolute; width: 292px; height: 289px; background-color: #fafdfb; top: 40px; left: 200px; border: 1px solid #01994b; padding: 25px 39px; z-index: 10; }
+
+.menu-sublist-area { display: none; }
+
+.menu-sublist-area li { width: 136px; position: relative; }
+
+.menu-sublist-area li img { position: absolute; left: 0; top: 0; width: 39px; height: 39px; background-color: #666; }
+
+.menu-sublist-area li span { font-size: 12px; color: #333; height: 39px; line-height: 39px; margin-left: 45px; }
+
+/* banner */
+.D-b-2 { width: 800px; position: relative; }
+
+.D-b-2 .hd { bottom: 20px; right: 10px; position: absolute; z-index: 1; width: 84px; height: 18px; border-radius: 15px; line-height: 16px; background-color: rgba(255, 255, 255, 0.3); }
+
+.dot { position: relative; width: 6px; height: 6px; border-radius: 15px; display: inline-block; margin-left: 15px; background-color: #fff; cursor: pointer; }
+
+.dot.on { background-color: #01994b; }
+
+.dot.on:after { width: 16px; height: 16px; position: absolute; content: ''; display: block; margin-left: -8px; margin-top: -8px; left: 50%; top: 50%; background-color: #01994b; opacity: .3; border-radius: 50%; }
+
+/* 用户信息 */
+.D-b-3 { width: 190px; margin-top: 1px; }
+
+.user-info-wrap { padding: 20px 13px 22px; }
+
+/* 用户头像 */
+.user-info-avatar { display: inline-block; width: 48px; height: 48px; border-radius: 45px; background-color: #eee; overflow: hidden; }
+
+/* 用户信息 */
+.user-info-show { display: inline-block; position: relative; top: -12px; }
+
+.user-info-show a { color: #323232; }
+
+.user-info-show .user-login { margin-top: 7px; }
+
+/* 福利&VIP */
+.user-profit { text-align: center; margin-bottom: 18px; }
+
+.user-profit a { display: inline-block; width: 68px; height: 20px; border: 2px solid #e53935; line-height: 20px; color: #e53935; }
+
+.user-profit .user-profit-link-1 { margin-right: 13px; }
+
+/* 促销&公告 */
+.D-news-tab { font-size: 12px; color: #333; border-bottom: 1px solid #e6e6e6; padding-bottom: 4px; }
+
+.D-news-tab span { cursor: pointer; display: inline-block; width: 32px; text-align: center; }
+
+.D-news-tab .D-news-tab-first { border-right: 1px solid #e6e6e6; padding-right: 7px; }
+
+.D-news-tab .D-news-tab-last { padding-left: 7px; }
+
+.D-news-tab .tab-wrap { position: relative; display: inline-block; }
+
+.D-news-tab .D-news-tab-on { width: 32px; height: 2px; background-color: #e53935; position: absolute; bottom: -5px; left: 0; }
+
+.D-news-list { margin-top: 17px; }
+
+.D-news-list li { margin-top: 14px; }
+
+.D-news-list li a { color: #666; }
+
+.D-news-list li a:hover { color: #e53935; }
+
+/* 活动 */
+.D-slider { height: 173px; overflow: hidden; }
+
+.D-slider li { float: left; margin-left: 10px; }
+
+.D-slider li:first-child { margin-left: 0; }
+
+.D-slider li a { display: inline-block; width: 295px; height: 173px; overflow: hidden; }
+
+.D-slider li a img { width: 100%; height: 100%; }
+
+/* 秒杀 */
+.box-hd { height: 67px; line-height: 67px; }
+
+.box-hd-col-2 { height: 67px; }
+
+.box-hd-col-2 .box-hd-col-2-tip { position: relative; top: -11px; }
+
+.time-box { display: inline-block; }
+
+.time-wrap { display: inline-block; width: 36px; height: 36px; line-height: 36px; background-color: #575757; border-radius: 4px; margin-top: 16px; text-align: center; }
+
+.time-wrap span { font-size: 24px; color: #fff; font-family: Arial; }
+
+.split { margin: 29px 8px 0 8px; }
+
+.split i { width: 2px; height: 2px; background-color: #575757; display: block; margin-bottom: 7px; }
+
+.box-bd li { position: relative; width: 396px; height: 230px; }
+
+.s-p-img { position: absolute; width: 150px; height: 150px; left: 19px; top: 33px; }
+
+.s-p-info { padding-left: 193px; padding-top: 35px; }
+
+.s-p-info h4 { font-size: 16px; }
+
+.s-p-info .subhead { font-size: 12px; color: #ccc; }
+
+.s-p-info .price-now { font-family: Arial; }
+
+.s-p-info .surplus { display: inline-block; width: 121px; height: 8px; border: 1px solid #f2cecd; border-radius: 15px; position: relative; margin-right: 8px; }
+
+.s-p-info .surplus strong { position: absolute; left: 0; top: 0; background-color: #ffefef; border-radius: 15px; height: 8px; width: 100%; }
+
+.s-p-info .buy-now { display: block; width: 130px; height: 32px; border-radius: 2px; color: #fff; background-color: #e53935; font-size: 16px; line-height: 32px; text-align: center; }
+
+/* 产品模块 */
+h3 .h3-txt { font-size: 22px; line-height: 36px; color: #333; }
+
+h3 .h3-img { display: inline-block; height: 36px; }
+
+.w969 { width: 969px; }
+
+.module-title { height: 36px; }
+
+.module-title a { float: left; color: #767676; font-size: 12px; padding-left: 7px; padding-right: 7px; border-left: 1px solid #767676; }
+
+.module-title a:first-child { border-left: 0; }
+
+.products-list { margin-top: -6px; }
+
+.products-list a { display: block; width: 100%; height: 100%; }
+
+.products-list li { float: left; width: 236px; height: 300px; background-color: #fff; margin-top: 6px; margin-left: 6px; }
+
+.products-list li .pro-img { width: 236px; height: 200px; margin-bottom: 27px; overflow: hidden; }
+
+.products-list li .pro-name, .products-list li .pro-price { padding-left: 27px; }
+
+.products-list-1 { margin-left: -6px; }
+
+.products-list-1 li { width: 298px; }
+
+.products-list-1 li .pro-img { margin: 0 auto 27px; }
+
+.w479 { width: 479px !important; position: relative; }
+
+.w479 .pro-img { position: absolute; right: 0; top: 58px; }
+
+.w479 .pro-name { margin-top: 38px; }
+
+.w479 .sub-pro-name { display: block; color: #767676; }
