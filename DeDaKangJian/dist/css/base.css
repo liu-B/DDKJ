@@ -6,7 +6,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 fieldset, img { border: 0; }
 
-img { width: 100%; display: block; }
+img { display: block; }
 
 address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }
 
@@ -42,7 +42,9 @@ i { display: inline-block; }
 
 .footer h5 { font-size: 14px; color: #333; margin-bottom: 15px; }
 
-.mod-service { margin-bottom: 33px; border-bottom: 1px solid #e1e1e1; }
+.mod-wrap { padding-top: 33px; padding-bottom: 20px; }
+
+.mod-service { border-bottom: 1px solid #e1e1e1; }
 
 .mod-help { width: 740px; border-right: 1px solid #e1e1e1; padding-top: 21px; padding-bottom: 28px; }
 
@@ -136,7 +138,7 @@ body { font: 12px/1 "Microsoft YaHei", Arial, Helvetica, sans-serif, "宋体"; b
 
 .ico-phone-app { display: inline-block; width: 16px; height: 16px; background: url(../images/icons/Icon-mobilephone.png) no-repeat; }
 
-/* 公用边距及字体 */
+/* 公用边距&字体&边框 */
 .pt5 { padding-top: 5px; }
 
 .pt10 { padding-top: 10px; }
@@ -513,3 +515,104 @@ body { font: 12px/1 "Microsoft YaHei", Arial, Helvetica, sans-serif, "宋体"; b
 .col-323232 { color: #323232; }
 
 .col-404040 { color: #404040; }
+
+/* 边框 */
+.border-1 { border: 1px solid #f6f6f6; }
+
+.border-1-t { border-top: 1px solid #f6f6f6; }
+
+.border-1-r { border-right: 1px solid #f6f6f6; }
+
+.border-1-b { border-bottom: 1px solid #f6f6f6; }
+
+.border-1-l { border-left: 1px solid #f6f6f6; }
+
+.border-2 { border: 1px solid #999; }
+
+.border-2-t { border-top: 1px solid #999; }
+
+.border-2-r { border-right: 1px solid #999; }
+
+.border-2-b { border-bottom: 1px solid #999; }
+
+.border-2-l { border-left: 1px solid #999; }
+
+.border-3 { border: 1px solid #01994b; }
+
+.border-3-t { border-top: 1px solid #01994b; }
+
+.border-3-r { border-right: 1px solid #01994b; }
+
+.border-3-b { border-bottom: 1px solid #01994b; }
+
+.border-3-l { border-left: 1px solid #01994b; }
+
+.border-4 { border: 1px solid #2196f3; }
+
+.border-4-t { border-top: 1px solid #2196f3; }
+
+.border-4-r { border-right: 1px solid #2196f3; }
+
+.border-4-b { border-bottom: 1px solid #2196f3; }
+
+.border-4-l { border-left: 1px solid #2196f3; }
+
+.border-5 { border: 1px solid #e53935; }
+
+.border-5-t { border-top: 1px solid #e53935; }
+
+.border-5-r { border-right: 1px solid #e53935; }
+
+.border-5-b { border-bottom: 1px solid #e53935; }
+
+.border-5-l { border-left: 1px solid #e53935; }
+
+.border-6 { border: 1px solid #e8e8e8; }
+
+.border-6-t { border-top: 1px solid #e8e8e8; }
+
+.border-6-r { border-right: 1px solid #e8e8e8; }
+
+.border-6-b { border-bottom: 1px solid #e8e8e8; }
+
+.border-6-l { border-left: 1px solid #e8e8e8; }
+
+.border-7 { border: 1px solid #e6e6e6; }
+
+.border-7-t { border-top: 1px solid #e6e6e6; }
+
+.border-7-r { border-right: 1px solid #e6e6e6; }
+
+.border-7-b { border-bottom: 1px solid #e6e6e6; }
+
+.border-7-l { border-left: 1px solid #e6e6e6; }
+
+.border-8 { border: 1px solid #e0e0e0; }
+
+.border-8-t { border-top: 1px solid #e0e0e0; }
+
+.border-8-r { border-right: 1px solid #e0e0e0; }
+
+.border-8-b { border-bottom: 1px solid #e0e0e0; }
+
+.border-8-l { border-left: 1px solid #e0e0e0; }
+
+.border-9 { border: 1px solid #e1e1e1; }
+
+.border-9-t { border-top: 1px solid #e1e1e1; }
+
+.border-9-r { border-right: 1px solid #e1e1e1; }
+
+.border-9-b { border-bottom: 1px solid #e1e1e1; }
+
+.border-9-l { border-left: 1px solid #e1e1e1; }
+
+.border-10 { border: 1px solid #dcdcdc; }
+
+.border-10-t { border-top: 1px solid #dcdcdc; }
+
+.border-10-r { border-right: 1px solid #dcdcdc; }
+
+.border-10-b { border-bottom: 1px solid #dcdcdc; }
+
+.border-10-l { border-left: 1px solid #dcdcdc; }

@@ -1,0 +1,59 @@
+@import 'sass/top';
+@import 'sass/header';
+@import 'sass/page';
+body {
+  background-color: #fff;
+}
+
+.cnt {
+  border-top: 2px solid #e0e0e0;
+  padding-top: 40px;
+  margin-bottom: 120px;
+}
+
+.notice-list {
+  width: 593px;
+  border: 1px solid #ccc;
+}
+
+.notice-list-tit {
+  height: 39px;
+  line-height: 39px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 0 19px;
+}
+
+.notice-list-main {
+  padding: 0 19px;
+  li {
+    height: 54px;
+    line-height: 54px;
+    font-size: 14px;
+    border-top: 1px solid #e6e6e6;
+    a {
+      color: #333;
+    }
+    .date {
+      float: right;
+      font-size: 12px;
+      color: #ccc;
+    }
+    &:first-child {
+      border-top: 0;
+    }
+  }
+}
+
+/* 分页 */
+
+.page-main{
+  padding-top: 10px;
+}
+
+/* footer */
+.mod-wrap,.footer-info{
+  background-color: #fff;
+}

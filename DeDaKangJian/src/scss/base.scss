@@ -19,9 +19,6 @@
 .clearfix {
   display: inline-table;
 }
-
-
-
 /* Hides from IE-mac \*/
 
 * html .clearfix {
@@ -31,8 +28,6 @@
 .clearfix {
   display: block;
 }
-
-
 
 /* End hide from IE-mac */
 
@@ -160,8 +155,9 @@ body {
 }
 
 
-/* 公用边距及字体 */
+/* 公用边距&字体&边框 */
 
 @import "sass/spacing";
 @import "sass/fontSize";
 @import "sass/fontColor";
+@import "sass/border";

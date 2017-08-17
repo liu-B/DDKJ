@@ -22,9 +22,7 @@
     $menuSublistWrap.show();
     $menuSubList.eq($t).show();
 
-  });
-
-  $('.D-menu .dd').mouseout(function() {
+  }).mouseout(function() {
 
     var $this = $(this);
     var $t = $this.index();

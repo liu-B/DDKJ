@@ -7,8 +7,12 @@
   }
 }
 
+.mod-wrap {
+  padding-top: 33px;
+  padding-bottom: 20px;
+}
+
 .mod-service {
-  margin-bottom: 33px;
   border-bottom: 1px solid #e1e1e1;
 }
 
@@ -75,11 +79,11 @@
   text-align: center;
   a {
     color: #8d8c8c;
-    &:hover{
-    	text-decoration: underline;
+    &:hover {
+      text-decoration: underline;
     }
   }
-  p{
-  	border-top: 1px solid #e1e1e1;
+  p {
+    border-top: 1px solid #e1e1e1;
   }
 }

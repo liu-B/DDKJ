@@ -79,6 +79,54 @@
 
 .menu-sublist-area li span { font-size: 12px; color: #333; height: 39px; line-height: 39px; margin-left: 45px; }
 
+/*导航菜单*/
+.D-b-1 { width: 200px; margin-top: -40px; position: relative; }
+
+.D-b-1 .dt { height: 40px; line-height: 40px; background-color: #01994b; position: relative; }
+
+.D-b-1 .dt a { color: #fff; }
+
+.D-b-1 .dt i { left: 31px; }
+
+.D-b-1 .dd { height: 52px; line-height: 52px; position: relative; background-position: 175px 20px; }
+
+.D-b-1 .dd:before { content: ''; display: none; position: absolute; width: 198px; height: 51px; border: 1px solid #01994b; left: 0; top: 0; }
+
+.D-b-1 .dd:after { content: ''; display: none; position: absolute; right: -1px; top: 1px; width: 2px; height: 51px; background-color: #fafdfb; z-index: 11; }
+
+.D-b-1 .dd:hover, .D-b-1 .dd.on { background-color: #fafdfb; }
+
+.D-b-1 .dd:hover a, .D-b-1 .dd.on a { color: #01994b; }
+
+.D-b-1 .dd:hover .icon-d-arrow-r, .D-b-1 .dd.on .icon-d-arrow-r { color: #01994b; }
+
+.D-b-1 .dd:hover:before, .D-b-1 .dd:hover:after, .D-b-1 .dd.on:before, .D-b-1 .dd.on:after { display: block; }
+
+.D-menu { height: 340px; font-size: 16px; }
+
+.D-menu i { font-size: 14px; margin-left: 13px; margin-right: 13px; }
+
+.D-menu a { display: block; color: #666; position: relative; }
+
+.D-menu a div { margin-left: 9px; margin-right: 8px; }
+
+.D-menu a .icon-d-arrow-r { font-size: 10px; color: #e8e8e8; }
+
+.D-menu a .icon-d-arrow-r:before { position: absolute; right: 12px; top: 50%; margin-top: -25px; }
+
+.menu-all i { position: absolute; top: 50%; margin-top: -8px; width: 16px; height: 16px; background: url(../images/icons/Icon-classification.png) no-repeat; }
+
+/* 二级菜单 */
+.menu-sublist-wrap { display: none; position: absolute; width: 292px; height: 289px; background-color: #fafdfb; top: 40px; left: 200px; border: 1px solid #01994b; padding: 25px 39px; z-index: 10; }
+
+.menu-sublist-area { display: none; }
+
+.menu-sublist-area li { width: 136px; position: relative; }
+
+.menu-sublist-area li img { position: absolute; left: 0; top: 0; width: 39px; height: 39px; background-color: #666; }
+
+.menu-sublist-area li span { font-size: 12px; color: #333; height: 39px; line-height: 39px; margin-left: 45px; }
+
 /* banner */
 .D-b-2 { width: 800px; position: relative; }
 
@@ -97,6 +145,8 @@
 
 /* 用户头像 */
 .user-info-avatar { display: inline-block; width: 48px; height: 48px; border-radius: 45px; background-color: #eee; overflow: hidden; }
+
+.user-info-avatar img { width: 100%; height: 100%; }
 
 /* 用户信息 */
 .user-info-show { display: inline-block; position: relative; top: -12px; }

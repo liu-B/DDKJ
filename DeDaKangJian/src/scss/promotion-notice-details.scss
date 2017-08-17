@@ -1,0 +1,60 @@
+@import 'sass/top';
+@import 'sass/header';
+@import 'sass/footer';
+@import 'sass/products-other';
+body {
+  background-color: #fff;
+}
+
+.cnt {
+  border-top: 2px solid #e0e0e0;
+  padding-top: 40px;
+}
+
+.notice-wrap {
+  border: 1px solid #ccc;
+  padding: 40px 20px;
+  margin-bottom: 80px;
+}
+
+.notice-hd {
+  border-bottom: 1px solid #e6e6e6;
+  text-align: center;
+  padding-bottom: 40px;
+  .notice-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .notice-date {
+    font-size: 12px;
+    color: #999;
+  }
+}
+
+.notice-bd {
+  padding: 40px 25px 0;
+  font-size: 12px;
+  color: #666;
+  p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+}
+
+
+/* 为您推荐 */
+
+.detail-other-wrap {
+  margin-bottom: 110px;
+}
+
+/* footer */
+
+.mod-wrap {
+  background-color: #fff;
+}
+
+.footer-info {
+  background-color: #fff;
+}

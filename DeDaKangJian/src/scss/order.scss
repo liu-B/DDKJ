@@ -1,0 +1,323 @@
+@import 'sass/top';
+@import 'sass/footer';
+@import 'sass/order-header';
+body {
+  background-color: #fff;
+}
+
+/* 订单 */
+
+.oder-wrap {
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.alter {
+  font-size: 12px;
+  color: #01994b;
+}
+
+.ico-ok {
+  width: 16px;
+  height: 16px;
+  background: url(../images/icons/ico-ok.png) no-repeat;
+
+}
+/* 订单-收货人信息 */
+
+.oder-addr {
+  padding-top: 19px;
+  padding-bottom: 40px;
+}
+
+.addr-main {
+  width: 230px;
+  height: 156px;
+  border: 2px solid #e6e6e6;
+  position: relative;
+  padding: 0 8px;
+  margin-right: 20px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all .3s;
+  .ico-ok{
+    display: none;
+    position: absolute;
+    top: 8px;
+    left: 7px;
+  }
+  .user-name {
+    color: #333;
+    font-size: 16px;
+    margin-top: 46px;
+  }
+  .user-phone {
+    color: #666;
+    font-size: 12px;
+  }
+  .user-addr {
+    width: 207px;
+    color: #666;
+    font-size: 12px;
+    line-height: 1.2;
+  }
+  .alter {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+  }
+  &:hover{
+    border-color: #01994b;
+  }
+  &.on{
+    border-color: #01994b;
+    .ico-ok{
+      display: block;
+    }
+  }
+}
+
+.add-addr {
+  display: inline-block;
+  width: 248px;
+  height: 158px;
+  border: 1px solid #e6e6e6;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  line-height: 210px;
+  background: url(../images/icons/icon-add.png) no-repeat center;
+}
+
+
+/* 发票信息 */
+
+.oder-invoice {
+  padding-bottom: 38px;
+  margin-bottom: 39px;
+}
+
+.invoice-wrap {
+  height: 38px;
+  border: 1px solid #e6e6e6;
+  line-height: 38px;
+  font-size: 12px;
+  color: #666;
+  padding-left: 21px;
+  padding-right: 18px;
+}
+
+
+/* 确认订单信息 */
+
+.oder-info-wrap {
+  border: 1px solid #e6e6e6;
+  table {
+    width: 100%;
+  }
+  thead {
+    height: 55px;
+    line-height: 55px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+  }
+  tbody {
+    color: #333;
+    font-size: 12px;
+    a {
+      color: #333;
+      display: block;
+    }
+    td {
+      padding-top: 18px;
+      padding-bottom: 18px;
+    }
+    .oder-pro-img {
+      width: 120px;
+      height: 120px;
+      overflow: hidden;
+      display: inline-block;
+      margin-right: 15px;
+      float: left;
+    }
+    .oder-pro-name {
+      margin-left: 15px;
+      display: table-cell;
+      line-height: 1.3;
+      width: 195px;
+      height: 120px;
+      vertical-align: middle;
+    }
+    .oder-info-price,
+    .oder-info-money {
+      font-size: 24px;
+      span {
+        font-size: 14px;
+      }
+    }
+    .oder-info-money {
+      color: #e53935;
+    }
+  }
+}
+
+.oder-info-w1 {
+  width: 430px;
+}
+
+.oder-info-w2 {
+  width: 150px;
+}
+
+.oder-info-w3 {
+  width: 148px;
+}
+
+.oder-info-w4 {
+  width: 120px;
+}
+
+.oder-info-w5 {
+  width: 160px;
+}
+
+.oder-info-msg {
+  margin-top: -1px;
+  height: 82px;
+  line-height: 82px;
+  padding: 0 20px;
+  border: 1px solid #e6e6e6;
+  background: #fafafa;
+  .msg-text {
+    font-size: 12px;
+    color: #666;
+    input {
+      width: 468px;
+      height: 42px;
+      border: 1px solid #e6e6e6;
+      padding: 0 5px;
+      outline: none;
+      font-size: 14px;
+      background-color: #fff;
+    }
+  }
+  .msg-tips {
+    font-size: 16px;
+    color: #333;
+  }
+}
+
+
+/* 优惠券抵扣 */
+
+.discount-wrap {
+  border: 1px solid #e6e6e6;
+  .discount {
+    height: 38px;
+    line-height: 38px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    i{
+      margin-left: 10px;
+      width: 15px;
+      height: 10px;
+      background: url(../images/icons/Arrow-5.png) no-repeat;
+      transition: all .5s;
+    }
+    .rotate{
+      transform: rotate(180deg);
+    }
+  }
+  .discount-main {
+    padding: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    span {
+      display: inline-block;
+      float: left;
+      position: relative;
+      margin-left: 40px;
+      cursor: pointer;
+      &:first-child {
+        margin-left: 0;
+      }
+      .ico-ok {
+        display: none;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+      &.on{
+        .ico-ok{
+          display: block;
+        }
+      }
+    }
+  }
+  .discount-info {
+    height: 38px;
+    line-height: 38px;
+    text-align: right;
+    padding: 0 20px;
+    span {
+      display: inline-block
+    }
+  }
+}
+
+.aggregate {
+  padding-bottom: 25px;
+  li {
+    text-align: right;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    color: #666;
+    span {
+      display: inline-block
+    }
+    .aggregate-price {
+      font-size: 24px;
+      color: #e53935;
+    }
+  }
+}
+
+.oder-submit {
+  padding: 20px;
+  background-color: #f7f7f7;
+  margin-left: -19px;
+  margin-right: -19px;
+  border-top: 1px solid #e6e6e6;
+  .oder-submit-left {
+    margin-top: 8px;
+    p {
+      max-width: 800px;
+    }
+  }
+  .btn-submit {
+    width: 174px;
+    height: 48px;
+    text-align: center;
+    background-color: #01994b;
+    border: 0;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+  }
+}
+
+.w150 {
+  width: 150px;
+}

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+.top { height: 32px; background-color: #f5f5f5; line-height: 32px; color: #666; }
+
+.top li { float: left; margin-left: 20px; }
+
+.top li:first-child { margin-left: 0; }
+
+.top a { color: #666; }
+
+.top .login-link { margin: 0 10px; }
+
+.ico-arrow-d { position: relative; top: -1px; }
+
+.ico-phone-app { position: relative; top: 4px; }
+
+.footer { background-color: #eaeaea; }
+
+.footer h5 { font-size: 14px; color: #333; margin-bottom: 15px; }
+
+.mod-wrap { padding-top: 33px; padding-bottom: 20px; }
+
+.mod-service { border-bottom: 1px solid #e1e1e1; }
+
+.mod-help { width: 740px; border-right: 1px solid #e1e1e1; padding-top: 21px; padding-bottom: 28px; }
+
+.mod-help .mod-help-nav { float: left; text-align: center; }
+
+.mod-help .mod-help-nav li { margin-bottom: 9px; }
+
+.mod-help .mod-help-nav a { font-size: 12px; color: #666; }
+
+.mod-cover { padding-top: 21px; width: 468px; }
+
+.mod-cover-link-service { width: 116px; text-align: center; }
+
+.mod-cover-link-service p { width: 87px; margin: 0 auto; line-height: 1.5; }
+
+.mod-cover-link-service .btn-link-service { display: inline-block; width: 114px; height: 27px; border: 1px solid #01994b; color: #01994b; line-height: 27px; border-radius: 2px; }
+
+.mod-cover-wx { margin-left: 66px; margin-right: 58px; }
+
+.mod-cover-wx, .mod-cover-app { width: 78px; height: 78px; text-align: center; }
+
+.footer-info { height: 63px; line-height: 63px; background-color: #e6e6e6; font-size: 12px; color: #8d8c8c; text-align: center; }
+
+.footer-info a { color: #8d8c8c; }
+
+.footer-info a:hover { text-decoration: underline; }
+
+.footer-info p { border-top: 1px solid #e1e1e1; }
+
+.header { margin-bottom: 60px; }
+
+h1 { margin-top: 55px; }
+
+h2 { font-size: 24px; color: #333; margin-top: 76px; margin-left: 30px; }
+
+/* 订单流程 */
+.flow { height: 8px; background-color: #e6e6e6; border-radius: 15px; margin-top: 83px; margin-right: 40px; }
+
+.flow li { width: 150px; text-align: center; float: left; position: relative; top: -7px; }
+
+.flow li strong, .flow li span { display: block; }
+
+.flow li strong { width: 20px; height: 20px; background-color: #e6e6e6; border: 1px solid #fff; border-radius: 35px; line-height: 20px; margin: 0 auto 9px; position: relative; z-index: 10; }
+
+.flow li:before, .flow li:after { content: ''; display: inline; width: 75px; height: 8px; position: absolute; top: 7px; background-color: #e6e6e6; border-radius: 15px; }
+
+.flow li:before { z-index: 8; left: -5px; }
+
+.flow li:after { z-index: 9; right: 0px; }
+
+.flow li.flow-on strong { color: #fff; background-color: #00923f; }
+
+.flow li.flow-on span { color: #00923f; }
+
+.flow li.flow-on:before, .flow li.flow-on:after { background-color: #00923f; }
+
+.flow li.flow-on:after { border-radius: 15px; }
+
+.flow .flow-first:before { width: 107px; left: -40px; }
+
+.flow .flow-last:after { width: 107px; right: -40px; }
+
+body { background-color: #fff; }

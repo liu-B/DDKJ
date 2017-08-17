@@ -1,0 +1,88 @@
+/* 热销榜单&为您推荐 */
+
+.detail-other-wrap {
+  .title {
+    width: 182px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    position: relative;
+    margin-bottom: 34px;
+    &:before,
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 38px;
+      height: 1px;
+      background-color: #ededed;
+      top: 50%;
+      margin-top: .5px;
+    }
+    &:before {
+      left: 0;
+    }
+    &:after {
+      right: 0;
+    }
+  }
+}
+
+.hot-list,
+.recommend-list {
+  position: relative;
+  .bd {
+    width: 1131px;
+    margin: 0 auto;
+    li {
+      float: left;
+      width: 20%;
+      height: 280px;
+      text-align: center;
+      a {
+        width: 220px;
+        height: 260px;
+        background-color: #fafafa;
+        display: block;
+        margin: 0 3px;
+        padding-top: 20px; 
+      } 
+    }
+  }
+  .pro-img {
+    width: 130px;
+    height: 176px;
+    margin: 19px auto;
+    img {
+      width: 100%;
+    }
+  }
+  .pro-name {
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .pro-price {
+    font-size: 14px;
+    color: #e53935;
+  }
+  .prev,
+  .next {
+    display: block;
+    width: 40px;
+    height: 280px;
+    position: absolute;
+    top: 50%;
+    margin-top: -140px;
+    cursor: pointer;
+  }
+  .prev {
+    left: 0;
+    background: url(../images/icons/shangyiye.png) no-repeat center left;
+  }
+  .next {
+    right: -3px;
+    background: url(../images/icons/xiayiye.png) no-repeat center right;
+  }
+}

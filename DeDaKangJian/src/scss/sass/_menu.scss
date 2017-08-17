@@ -1,0 +1,138 @@
+/*导航菜单*/
+
+.D-b-1 {
+  width: 200px;
+  margin-top: -40px;
+  position: relative;
+  .dt {
+    height: 40px;
+    line-height: 40px;
+    background-color: $col-01994b;
+    position: relative;
+    a {
+      color: #fff;
+    }
+    i {
+      left: 31px;
+    }
+  }
+  .dd {
+    height: 52px;
+    line-height: 52px;
+    position: relative;
+    background-position: 175px 20px;
+    &:before {
+      content: '';
+      display: none;
+      position: absolute;
+      width: 198px;
+      height: 51px;
+      border: 1px solid $col-01994b;
+      left: 0;
+      top: 0;
+    }
+    &:after {
+      content: '';
+      display: none;
+      position: absolute;
+      right: -1px;
+      top: 1px;
+      width: 2px;
+      height: 51px;
+      background-color: #fafdfb;
+      z-index: 11;
+    }
+    &:hover,
+    &.on {
+      background-color: #fafdfb;
+      a{
+        color: $col-01994b;
+      }
+      .icon-d-arrow-r {
+        color: $col-01994b;
+      }
+      &:before,
+      &:after {
+        display: block;
+      }
+    }
+  }
+}
+
+.D-menu {
+  height: 340px;
+  font-size: 16px;
+  i {
+    font-size: 14px;
+    margin-left: 13px;
+    margin-right: 13px;
+  }
+  a {
+    display: block;
+    color: #666;
+    position: relative;
+    div {
+      margin-left: 9px;
+      margin-right: 8px;
+    }
+    .icon-d-arrow-r {
+      font-size: 10px;
+      color: #e8e8e8;
+      &:before {
+        position: absolute;
+        right: 12px;
+        top: 50%;
+        margin-top: -25px;
+      }
+    }
+  }
+}
+
+.menu-all i {
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  width: 16px;
+  height: 16px;
+  background: url(../images/icons/Icon-classification.png) no-repeat;
+}
+
+
+
+/* 二级菜单 */
+
+.menu-sublist-wrap {
+  display: none;
+  position: absolute;
+  width: 292px;
+  height: 289px;
+  background-color: #fafdfb;
+  top: 40px;
+  left: 200px;
+  border: 1px solid $col-01994b;
+  padding: 25px 39px;
+  z-index: 10;
+}
+
+.menu-sublist-area {
+  display: none;
+  li {
+    width: 136px;
+    position: relative; // float: left;
+    img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 39px;
+      height: 39px;
+      background-color: #666;
+    }
+    span {
+      font-size: 12px;
+      color: #333;
+      height: 39px;
+      line-height: 39px;
+      margin-left: 45px;
+    }
+  }
+}

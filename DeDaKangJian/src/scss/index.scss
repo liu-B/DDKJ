@@ -1,4 +1,5 @@
 @import "sass/header";
+@import "sass/menu";
 $col-01994b:#01994b;
 $col-e53935:#e53935;
 
@@ -216,6 +217,10 @@ $col-e53935:#e53935;
   border-radius: 45px;
   background-color: #eee;
   overflow: hidden;
+  img{
+    width: 100%;
+    height: 100%;
+  }
 }
 
 

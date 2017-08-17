@@ -1,0 +1,25 @@
+/* 分页 */
+
+.page-wrap {
+  padding-top: 44px;
+}
+
+.page {
+  font-size: 0;
+  a {
+    font-size: 12px;
+    color: #666;
+    display: inline-block;
+    width: 49px;
+    height: 38px;
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    line-height: 38px;
+    margin-left: -1px;
+    cursor: pointer;
+    &:hover,
+    &.on {
+      color: #01994b;
+    }
+  }
+}
