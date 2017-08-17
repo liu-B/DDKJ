@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>支付成功</title>
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/order-prosperity.css">
 </head>
+
 <body>
   <!-- top -->
   @@include("top.html")
@@ -14,7 +16,7 @@
     <div class="w">
       <div class="left fl">
         <h1 class="fl"><img src="images/logo/logo.png" alt=""></h1>
-        <h2 class="fl">确认订单</h2>
+        <h2 class="fl">支付成功</h2>
       </div>
       <div class="right fr">
         <div class="flow">
@@ -41,5 +43,62 @@
     </div>
   </div>
   <!-- content -->
+  <div class="w">
+    <div class="cnt mb80">
+      <h3 class="border-6-b mb40"><img src="images/icons/ico-complete.png" alt="" class="mr20"><span>您已经成功付款1489.00元</span></h3>
+      <div class="user-addr pb40 border-6-b mb40">
+        <h4>收货人信息</h4>
+        <div class="addr-wrap border-8">
+          <div class="addr-info mb10">
+            <span class="mr70">收货地址：广东省深圳市南山设计产业园金栋201</span>
+            <span class="mr20">收货人：唐海兵</span>
+            <span>13798456211</span>
+          </div>
+          <div class="addr-pro">
+            商品：德达制氧机老人吸氧机家庭补氧S300智能版 1L机
+          </div>
+        </div>
+      </div>
+      <div class="user-order-info">
+        <h4>订单详情</h4>
+        <div class="oder-info-wrap">
+          <table>
+            <thead>
+              <tr>
+                <td class="oder-info-w1 oder-info-pro pl20">商品</td>
+                <td class="oder-info-w2">规格属性</td>
+                <td class="oder-info-w3">单价</td>
+                <td class="oder-info-w4">数量</td>
+                <td class="oder-info-w5">优惠</td>
+                <td class="oder-info-w6">小计</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="pl20">
+                  <a href="#" class="link-pro-details">
+                    <span class="oder-pro-img"><img src="images/imgs/pro-img.png" alt=""></span>
+                    <span class="oder-pro-name">德达制氧机老人吸氧机家庭补氧S300智能版 1L机</span>
+                  </a>
+                </td>
+                <td class="oder-info-size">老人雾化机1L</td>
+                <td class="oder-info-price"><span>¥</span>1599.00</td>
+                <td class="oder-info-number">x1</td>
+                <td class="oder-info-discount">满1000减100</td>
+                <td class="oder-info-money"><span>¥</span>1499.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    @@include("other-recommend-list.html")
+  </div>
+  <!-- footer -->
+  @@include("footer.html")
+  <!-- script -->
+  @@include("base-js-2.html")
+  <script type="text/javascript" src="js/order.js"></script>
 </body>
+
 </html>

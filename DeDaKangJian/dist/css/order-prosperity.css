@@ -82,4 +82,78 @@ h2 { font-size: 24px; color: #333; margin-top: 76px; margin-left: 30px; }
 
 .flow .flow-last:after { width: 107px; right: -40px; }
 
+/* 热销榜单&为您推荐 */
+.detail-other-wrap .title { width: 182px; margin: 0 auto; text-align: center; font-size: 16px; color: #333; position: relative; margin-bottom: 34px; }
+
+.detail-other-wrap .title:before, .detail-other-wrap .title:after { content: ''; display: block; position: absolute; width: 38px; height: 1px; background-color: #ededed; top: 50%; margin-top: .5px; }
+
+.detail-other-wrap .title:before { left: 0; }
+
+.detail-other-wrap .title:after { right: 0; }
+
+.hot-list, .recommend-list { position: relative; }
+
+.hot-list .bd, .recommend-list .bd { width: 1131px; margin: 0 auto; }
+
+.hot-list .bd li, .recommend-list .bd li { float: left; width: 20%; height: 280px; text-align: center; }
+
+.hot-list .bd li a, .recommend-list .bd li a { width: 220px; height: 260px; background-color: #fafafa; display: block; margin: 0 3px; padding-top: 20px; }
+
+.hot-list .pro-img, .recommend-list .pro-img { width: 130px; height: 176px; margin: 19px auto; }
+
+.hot-list .pro-img img, .recommend-list .pro-img img { width: 100%; }
+
+.hot-list .pro-name, .recommend-list .pro-name { font-size: 12px; color: #333; margin-bottom: 10px; }
+
+.hot-list .pro-price, .recommend-list .pro-price { font-size: 14px; color: #e53935; }
+
+.hot-list .prev, .hot-list .next, .recommend-list .prev, .recommend-list .next { display: block; width: 40px; height: 280px; position: absolute; top: 50%; margin-top: -140px; cursor: pointer; }
+
+.hot-list .prev, .recommend-list .prev { left: 0; background: url(../images/icons/shangyiye.png) no-repeat center left; }
+
+.hot-list .next, .recommend-list .next { right: -3px; background: url(../images/icons/xiayiye.png) no-repeat center right; }
+
 body { background-color: #fff; }
+
+.cnt { border: 1px solid #e6e6e6; padding: 19px; }
+
+h3 { text-align: center; padding-top: 20px; padding-bottom: 40px; height: 60px; font-size: 20px; color: #333; }
+
+h3 img { display: inline-block; vertical-align: middle; }
+
+h4 { font-size: 22px; color: #333; margin-bottom: 20px; }
+
+.addr-wrap { padding: 20px; color: #666; font-size: 12px; }
+
+/* 订单详情 */
+.oder-info-wrap { border: 1px solid #e6e6e6; }
+
+.oder-info-wrap table { width: 100%; }
+
+.oder-info-wrap thead { height: 55px; line-height: 55px; padding: 0 20px; font-size: 16px; color: #333; border-bottom: 1px solid #ccc; }
+
+.oder-info-wrap tbody { color: #333; font-size: 12px; }
+
+.oder-info-wrap tbody a { color: #333; display: block; }
+
+.oder-info-wrap tbody td { padding-top: 18px; padding-bottom: 18px; }
+
+.oder-info-wrap tbody .oder-pro-img { width: 120px; height: 120px; overflow: hidden; display: inline-block; margin-right: 15px; float: left; }
+
+.oder-info-wrap tbody .oder-pro-name { margin-left: 15px; display: table-cell; line-height: 1.3; width: 195px; height: 120px; vertical-align: middle; }
+
+.oder-info-wrap tbody .oder-info-price, .oder-info-wrap tbody .oder-info-money { font-size: 24px; }
+
+.oder-info-wrap tbody .oder-info-price span, .oder-info-wrap tbody .oder-info-money span { font-size: 14px; }
+
+.oder-info-wrap tbody .oder-info-money { color: #e53935; }
+
+.oder-info-w1 { width: 430px; }
+
+.oder-info-w2 { width: 150px; }
+
+.oder-info-w3 { width: 148px; }
+
+.oder-info-w4 { width: 120px; }
+
+.oder-info-w5 { width: 160px; }
